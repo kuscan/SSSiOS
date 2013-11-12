@@ -11,6 +11,10 @@
 
 @interface KSViewController : UIViewController
 
-@property (weak, nonatomic) IBOutlet KSSlider *ksSlider;
+@property (weak, nonatomic) IBOutlet KSSlider *slider1;
+@property (strong, nonatomic) KSSlider *slider2;
+@property (strong, nonatomic) KSSlider *slider3;
+@property (strong, nonatomic) KSSlider *slider4;
+@property (strong, nonatomic) KSSlider *slider5;
 
 @end
